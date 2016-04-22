@@ -164,7 +164,7 @@ int main(int argc, char* args[])
 			SDL_RenderClear(renderer);
 
 			// Render world
-			renderWorldWithSpaces(renderer, world, 10, 10);
+			renderWorld(renderer, world, 10, 10);
 
 			// Update screen
 			SDL_RenderPresent(renderer);
